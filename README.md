@@ -1,12 +1,20 @@
 # Kaggle Baidu Autonomous Driving Baseline
 <img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/sample_predictions.png'>  
 <img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/heatmaps.png'>
-## TLDR [Todo]
-_placeholder_
 
-## Dependencies [Todo]
-_placeholder_
+## TLDR 
+- Resnet18 decoder CenterNet architecture
+- Regression on `[vdiff, udiff, z, yaw, pitch_sin, pitch_cos, roll]`
+- Flip augmentations and pixel-wise augmentations
+- Mask as an additional channel
+- Focal loss for keypoint heatmap
 
+## Dependencies 
+```
+torch=='1.7.1+cu110'
+pandas
+scikit_learn
+```
 ## Directory Settings
 ┣ 📦src  
 ┣ ┣ 📜conf.py  
