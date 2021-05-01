@@ -8,6 +8,7 @@
 - Flip augmentations and pixel-wise augmentations
 - Mask as an additional channel
 - Focal loss for keypoint heatmap
+- 50 epochs -> `0.091` on the private leaderboard.
 
 ## Dependencies 
 ```
@@ -132,4 +133,4 @@ Sum Loss: 1.426, Keypoint loss: 1.82, Regression loss: 0.5162: 100%|████
 Train Loss: 3.1762      Keypoint: 4.6692        Regression: 0.8417
 Valid Loss: 3.7894      Keypoint: 5.8360        Regression: 0.8714      mAP: 0.120562
 ```
-After 50 epochs, you should get a leaderboard score of `0.89/0.91` on public lb/private lb.
+After 50 epochs, you should get a leaderboard score of `0.089/0.091` on public lb/private lb.
