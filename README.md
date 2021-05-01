@@ -38,10 +38,19 @@ _placeholder_
 ! python main.py --config test_config
 ```
 
-## Training Details [Todo]
-_placeholder_
+## Training Details 
+- architecture: CenterNet
+- backbone: ResNet18 with 6 input channels (RGB(3) + Mesh(2) + Mask(1))
+- input: `[Image, Mask (we want to ignore this)]` with size (2048, 512)
+- output: `[keypoint heatmap, vdiff, udiff, z, yaw, pitch_sin, pitch_cos, roll]`
+- loss function: focal loss for keypoint heatmap and l1 loss for regression
+- batch size: 2
+- data augmentations: hflip(0.5), BrightnessContrast(0.5), Blur(0.2), HSV(0.5), CLAHE(0.2)
+- lr scheduling: Cosine Annealing with init lr `1e-3` and eta `1e-5`
+- hardware: RTX 3090 (24G), AMD 3900XT, 64GB RAM
+- calculate map on the fly
 
-## Local Training Log (IP)
+## Sample Training Log
 ```
 python main.py --config test_config
 Using config file test_config
@@ -112,3 +121,4 @@ Sum Loss: 1.426, Keypoint loss: 1.82, Regression loss: 0.5162: 100%|████
 Train Loss: 3.1762      Keypoint: 4.6692        Regression: 0.8417
 Valid Loss: 3.7894      Keypoint: 5.8360        Regression: 0.8714      mAP: 0.120562
 ```
+After 50 epochs, you should get a leaderboard score of `0.89/0.91` on public lb/private lb.
