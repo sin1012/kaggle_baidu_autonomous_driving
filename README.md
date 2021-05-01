@@ -1,4 +1,4 @@
-# kaggle baidu autonomous driving baseline
+# Kaggle Baidu Autonomous Driving Baseline
 
 ## Sample Predictions
 <img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/sample_predictions.png'>
