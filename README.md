@@ -26,7 +26,7 @@ scikit_learn
 ┣ ┣ 📜transforms.py   
 ┣ ┗ 📜utils.py    
 ┣ 📦notebooks  
-┣ ┣ 📜INFERECE AND VISUALIZATION.ipynb [Todo]  
+┣ ┣ 📜INFERENCE AND VISUALIZATION.ipynb  
 ┣ ┣ 📜EDA.ipynb  
 ┣ ┗ 📜PUBLIC CENTERNET BASELINE.ipynb  
 ┣ 📦data (you should download this from kaggle)
