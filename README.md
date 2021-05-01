@@ -52,6 +52,8 @@ _placeholder_
 - lr scheduling: Cosine Annealing with init lr `1e-3` and eta `1e-5`
 - hardware: RTX 3090 (24G), AMD 3900XT, 64GB RAM
 - calculate map on the fly
+- architecture:
+<img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/model.png'>
 
 ## Sample Training Log
 ```
