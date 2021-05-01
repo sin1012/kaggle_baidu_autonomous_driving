@@ -1,6 +1,6 @@
 # Kaggle Baidu Autonomous Driving Baseline
-<img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/sample_predictions.png'>
-
+<img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/sample_predictions.png'>  
+<img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/heatmaps.png'>
 ## TLDR [Todo]
 _placeholder_
 
