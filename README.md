@@ -1,5 +1,8 @@
 # kaggle baidu autonomous driving baseline
 
+## Sample Predictions
+<img src='https://github.com/sin1012/kaggle_baidu_autonomous_driving/blob/main/images/sample_predictions.png'>
+
 ## TLDR [Todo]
 _placeholder_
 
