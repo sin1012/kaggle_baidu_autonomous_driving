@@ -47,6 +47,7 @@ scikit_learn
 ! cd src
 ! python main.py --config test_config
 ```
+4. To run with other params, add `your_config.py` to configs
 
 ## Training Details 
 - architecture: CenterNet
